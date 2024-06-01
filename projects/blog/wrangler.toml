@@ -1,9 +1,9 @@
-#[[d1_databases]]
-#binding = "DB" # i.e. available in your Worker on env.DB
-#database_name = "hono-blog"
-#database_id = "299892c2-6e11-4834-8686-3c0855c199a8"
+name = "my-honox-blog"
+compatibility_flags = [ "nodejs_compat" ]
+pages_build_output_dir = "dist"
+compatibility_date = "2024-05-13"
 
 [[d1_databases]]
 binding = "DB" # i.e. available in your Worker on env.DB
-database_name = "hono-blog-demo"
-database_id = "c1ec051a-3e19-4c89-92fa-bdc2b3f69e1c"
+database_name = "honox"
+database_id = "a8ce7af9-af7f-4e54-8f2e-c25e3d9a1cd6"
